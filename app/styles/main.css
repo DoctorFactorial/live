@@ -17,29 +17,7 @@ body {
   padding-right: 15px;
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-  margin-bottom: 10px;
-}
-/* Make the masthead heading the same height as the navigation */
-.header h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 40px;
-  padding-bottom: 19px;
-}
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
 
 /* Main marketing message and sign up button */
 .jumbotron {
@@ -81,3 +59,87 @@ body {
     border-bottom: 0;
   }
 }
+
+/* Articles */
+
+#article {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-color: red;
+  margin: 5px 5px 5px 5px;
+  background-color: rgba(254,254,254,0.85);
+  font-family: 'Quicksand', sans-serif;
+}
+
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Glegoo', serif;
+}
+
+h6 {
+  color:rgb(131, 88, 9);
+  font-weight: 900;
+}
+
+em {
+  color:rgb(131, 88, 9);
+}
+
+#article img {
+  max-width:100%;
+  max-height:100%;
+}
+
+/* Style Front End*/
+
+body {
+  background-color: rgba(254,254,254,0);
+}
+
+ul.navbar-nav {
+  position: relative;
+  left: -50px;
+  top: -10px;
+}
+
+.navbar-brand > img{
+  position: relative;
+  left: 60px;
+}
+
+
+ul.nav.navbar-nav > li {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-color: red;
+  margin: 5px 5px 5px 5px;
+  background-color: rgba(254,254,254,1);
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+
+.footer {
+  background-color: rgba(254,254,254,0.5);
+  border: 0px;
+  padding-top: 19px;
+  color: #777;
+}
+
+html { 
+  background: url(/../../images/grafico.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.header-buttons {
+  padding-right:15px;
+}
+
+.navbar-default {
+  background-color: rgba(248, 248, 248, 0);
+  border-color: rgba(248, 248, 248, 0);
+}
+
+

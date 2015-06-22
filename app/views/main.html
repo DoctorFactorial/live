@@ -1,5 +1,23 @@
-<div class="container">
 
+<div class="row">
+
+    <div ng-repeat="product in products">
+      <div class="col-md-4" id="article">
+        <h3> {{product.title}} </h3>
+        <h6> {{product.venue}} </h6>
+        <img ng-src= "{{product.images.full}}"/> 
+          <br>
+          <span>
+            <em> {{product.date}} </em>
+            <em class='pull-right'>{{ product.price }} </em>
+          </span>
+          <br>
+        <p> {{product.content | limitTo:160}} </p>
+      </div>
+    </div>
+</div>
+  <div class='row'>
+  
   <h2> My articles </h2>
 
   <!-- Article input -->
@@ -22,3 +40,4 @@
     </span>
   </p>
 </div>
+
