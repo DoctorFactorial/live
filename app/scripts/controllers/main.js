@@ -9,9 +9,5 @@
  */
 angular.module('liveApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+    $scope.articles = ['Article 1', 'Article 2', 'Article 3'];
   });
