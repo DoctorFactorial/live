@@ -33,7 +33,7 @@ angular.module('liveApp')
     	title: 'Un Chien Andalou',
     	content: 'Here is where we tell you what\'s going on',
     	venue: 'La Boca',
-    	tag: 'Concierto',
+    	category: 'ARTE',
     	date: 'sáb 28 jun, 22:00',
     	price: '15€',
     	images: {
@@ -45,7 +45,7 @@ angular.module('liveApp')
     	title: 'Un Chien Andalou 2',
     	content: 'Here is where we tell you what\'s going on',
     	venue: 'La Boca',
-    	tag: 'Concierto',
+        category: 'ARTE',
     	image: '/../../images/yeoman.png',
     	date: 'sáb 28 jun, 22:00',
     	price: '15€',
@@ -53,6 +53,56 @@ angular.module('liveApp')
     		full: '/../../images/la-boca.jpg',
     		thumb : '/../../images/yeoman.png'
     	}
+    },
+        {
+        title: 'Un Chien Andalou',
+        content: 'Here is where we tell you what\'s going on',
+        venue: 'La Boca',
+        category: 'ARTE',
+        date: 'sáb 28 jun, 22:00',
+        price: '15€',
+        images: {
+            full: '/../../images/la-boca.jpg',
+            thumb : '/../../images/yeoman.png'
+        }
+    },
+    {
+        title: 'Un Chien Andalou 2',
+        content: 'Here is where we tell you what\'s going on',
+        venue: 'La Boca',
+        category: 'ARTE',
+        image: '/../../images/yeoman.png',
+        date: 'sáb 28 jun, 22:00',
+        price: '15€',
+        images: {
+            full: '/../../images/la-boca.jpg',
+            thumb : '/../../images/yeoman.png'
+        }
+    },
+        {
+        title: 'Un Chien Andalou',
+        content: 'Here is where we tell you what\'s going on',
+        venue: 'La Boca',
+        category: 'ARTE',
+        date: 'sáb 28 jun, 22:00',
+        price: '15€',
+        images: {
+            full: '/../../images/la-boca.jpg',
+            thumb : '/../../images/yeoman.png'
+        }
+    },
+    {
+        title: 'CINE',
+        content: 'Here is where we tell you what\'s going on',
+        venue: 'La Boca',
+        category: 'CINE',
+        image: '/../../images/yeoman.png',
+        date: 'sáb 28 jun, 22:00',
+        price: '15€',
+        images: {
+            full: '/../../images/la-boca.jpg',
+            thumb : '/../../images/yeoman.png'
+        }
     }
     ];
   });

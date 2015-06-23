@@ -19,16 +19,6 @@ body {
 
 
 
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-}
-.jumbotron .btn {
-  font-size: 21px;
-  padding: 14px 24px;
-}
-
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
@@ -61,14 +51,28 @@ body {
 }
 
 /* Articles */
+.articles {
+  position: relative;
+  top: -60px;
+}
 
 #article {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-color: red;
-  margin: 5px 5px 5px 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: grey;
   background-color: rgba(254,254,254,0.85);
   font-family: 'Quicksand', sans-serif;
+}
+
+div #article {
+  margin-right: 30px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#article img {
+  max-width:100%;
+  max-height:100%;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -84,10 +88,7 @@ em {
   color:rgb(131, 88, 9);
 }
 
-#article img {
-  max-width:100%;
-  max-height:100%;
-}
+
 
 /* Style Front End*/
 
@@ -101,50 +102,36 @@ ul.navbar-nav {
   top: -10px;
 }
 
-.articles {
-  position: relative;
-  top: 100px;
-}
-
-.navbar-brand > img{
-  position: relative;
-  left: 60px;
-}
 
 
+
+
+/* Header */
 ul.nav.navbar-nav > li {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-color: red;
   margin: 5px 5px 5px 5px;
-  background-color: rgba(254,254,254,1);
   font-family: 'Quicksand', sans-serif;
+  position: relative;
+  left: 50px;
+  top: 25px;
   
 }
-
-
-.footer {
-  background-color: rgba(254,254,254,0.5);
-  border: 0px;
-  padding-top: 19px;
-  color: #777;
+.logo{
+  position: relative;
+  top:25px;
+  left:50px;
 }
 
-html { 
-  background: url(/../../images/grafico.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-.header-buttons {
-  padding-right:15px;
-}
 
 .navbar-default {
   background-color: rgba(248, 248, 248, 0);
   border-color: rgba(248, 248, 248, 0);
 }
 
+/* Footer */
+.footer {
+  background-color: rgba(254,254,254,0.5);
+  border: 0px;
+  padding-top: 19px;
+  color: #777;
+}
 

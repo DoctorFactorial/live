@@ -1,11 +1,14 @@
 
+
+
 <div class="row articles">
 
-    <div ng-repeat="product in products">
-      <div class="col-md-4" id="article">
+    <div ng-repeat="product in products" ng-show="tab === 1 || tab === 0">
+      <div class="col-md-3" id="article">
+        <a href="/#/about">
+        <img ng-src= "{{product.images.full}}"/> 
         <h3> {{product.title}} </h3>
         <h6> {{product.venue}} </h6>
-        <img ng-src= "{{product.images.full}}"/> 
           <br>
           <span>
             <em> {{product.date}} </em>
@@ -13,6 +16,7 @@
           </span>
           <br>
         <p> {{product.content | limitTo:160}} </p>
+      </a>
       </div>
     </div>
 </div>
