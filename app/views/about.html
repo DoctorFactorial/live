@@ -1,1 +1,38 @@
 <p>This is the about view.</p>
+
+
+<div ng-show='true'>
+<h1>Show / Hide test<h1>
+</div>
+
+<section>
+	<ul ng-init="tab = 0">
+		<li>
+			<a href ng-click="tab = 0">todo</a>
+		</li>
+		<li>
+			<a href ng-click="tab = 1">arte</a>
+		</li>
+		<li>
+			<a href ng-click="tab = 2">música</a>
+		</li>
+		<li>
+			<a href ng-click="tab = 3">cine</a>
+		</li>
+		<li>
+			<a href ng-click="tab = 4">eventos</a>
+		</li>
+		<li>
+			<a href ng-click="tab = 5">noticias</a>
+		</li>
+	</ul>
+
+	<br>
+	<br>
+
+	<p ng-show="tab === 1 || tab === 0">Tab 1 Showing</p>
+	<p ng-show="tab === 2 || tab === 0">Tab 2 Showing</p>
+	<p ng-show="tab === 3 || tab === 0">Tab 3 Showing</p>
+	<p ng-show="tab === 4 || tab === 0">Tab 4 Showing</p>
+	<p ng-show="tab === 5 || tab === 0">Tab 5 Showing</p>
+</section>
